@@ -1,0 +1,20 @@
+Sarajane Crawford
+ZKU Background Assignment
+Conceptual Knowledge Questions
+
+1. What is a smart contract? How are they deployed? You should be able to describe how a smart contract is deployed and the necessary steps. 
+
+A smart contract is code that represents a secure agreement that is executed automatically in a deterministic way. A smart contract exists on a blockchain and is created and utilized by users of the blockchain to create tokens, dapps, etc. A smart contract needs to be compiled before it can be deployed, and then this compiled code is sent in via blockchain transaction without any recipients. 
+
+2. What is gas? Why is gas optimization such a big focus when building smart contracts?
+
+Gas is a measurement of computation resources on a blockchain, the higher the gas prices are the more one has to pay for a unit of computation. It tries to limit the amount of resources needed for a transaction and then help pay nodes on the blockchain for the computational resources needed for execution. Gas optimization helps keeps transactions cost-effective for users and less resource-intensive for node operators and hardware.
+
+
+3. What is a hash? Why do people use hashing to hide information?
+
+A hash is a mathematical one-way function that uses a specific numerical formula to cryographically transform a number into a different number. Hashing cannot be reversed and two inputs will never have the same output. This allows for concealing information but can still be used to prove identities, such as proving that two documents have the exact same contents and haven't been modified but you cannot determine the contents by looking at the hash.
+
+4. How would you prove to a colorblind person that two different colored objects are actually of different colors?
+
+The colorblind person would take posession of the two colored objects and conceal them from the non-colorblind person. Then the colorblind person would randomly reveal the non-colorblind person one of the objects and have them state the color. This would be repeated enough times (while switching objects) to prove that that the non-colorblind person isn't just guessing and its stastically probable that the two objects have different colors.
